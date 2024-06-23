@@ -1,0 +1,87 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container.main h2 {
+  display: flex;
+  justify-content: center;
+	text-align: center;
+	font-size: 30px;
+  font-family:cursive;
+  background-color: rgb(122, 124, 170);
+  color: rgb(184, 186, 210);
+}
+.menu {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+  padding: 1rem;
+}
+.menu .btn {
+	padding: 4px 10px;
+	text-decoration: none;
+	color: #fff;
+  font-family:cursive;
+	border: 1px solid #e1c5c5;
+	margin: 2px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgb(192, 163, 189);
+}
+.menu .btn:hover{
+	padding: 2px 12px;
+  font-size: 16px;
+  background-color: rgb(120, 122, 158);
+
+}
+.store-items{
+  width: 300px;
+  padding: 1.2rem;
+  height: 200px;
+}
+.store-items .store-img{
+  width: 100%;
+  margin: 2px 10px;
+  display: block;
+  box-shadow: 7px 7px 20px rgba(135, 129, 129, 0.2);
+  border-radius: 10px;
+  object-fit: cover;
+  height: 100%;
+}
+.store-items span {
+	text-align: center;
+	display: block;
+  font-family:cursive;
+  font-size: 14px;
+}
+.box {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  padding: 30px 0;
+}
+.footer ul li {
+	display: flex;
+	justify-content: center;
+  margin: 4px;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family:cursive;
+  font-size: 14px;
+  color: rgb(204, 206, 224);
+  background-color: rgb(122, 124, 170);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer ul {
+	display: flex;
+	justify-content: space-around;
+}
